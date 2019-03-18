@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<!-- Mackenzie -->
+<!-- March 25 2019 -->
+<!-- Semester Schedule Project -->
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="semestersched.css"> <!-- link to CSS -->
+        <!-- metadata -->
+        <meta carset="utf-8">
+        <meta name="description" content="This site is my second semester schedule using a table with head, body, and foot attributes through HTML and CSS elements.">
+        <meta name="keywords" content="schedule, table, colspan, rowspan, classes">
+        <title> 2nd Semester Schedule </title>
+        <link rel="shortcut icon" href="favicon.ico">   <!-- favicon -->
+    </head>
+    
+    <!-- the body includes a head, a body, and a foot for a schedule made with a table -->
+    <body>
+        <table>
+    <!-- the head gives the table a title and also gives headers, the different cycles, for the table -->
+        <thead> 
+            <tr>
+                <th colspan= "8"> Mackenzie's  2nd  Semester Schedule </th>
+            </tr>
+            
+            <tr>
+                <th></th>
+                <th> Cycle 1</th>
+                <th> Cycle 2</th>
+                <th> Cycle 3</th>
+                <th> Cycle 4 </th>
+                <th> Cycle 5</th>
+                <th> Cycle 6</th>
+                <th> Cycle 7</th>
+            </tr>
+        </thead>
+        
+    <!-- the body gives the times and classes for the 7 different cycles listed in the head -->
+        <tbody> 
+            <tr> 
+                <td> 8:15-8:55 am <br /> <i> Period 1</i></td>
+                <td> Honors <br/> Pre- Calculus</td>
+                <td> Honors <br/> Pre- Calculus</td>
+                <td> Honors <br /> Pre- Calculus</td>
+                <td> Honors <br />Pre- Calculus</td>
+                <td> Honors  <br /> Pre- Calculus</td>
+                <td> Honors <br /> Pre- Calculus</td>
+                <td> Honors <br /> Statistics and Probability</td>
+            </tr>
+            
+            <tr> 
+                <td> 9:00- 9:15 am <br /> <i> Homeroom </i></td>
+                <td colspan= "7"> Homeroom </td>
+            </tr>
+            
+            <tr>
+                <td> 9:20- 10:00 am <br /> <i> Flex </i></td>
+                <td colspan= "7"> Flex</td>
+            </tr>
+            
+            <tr>
+                <td> 10:05-11:20 am <br /> <i> Period 2 </i></td>
+                <td> Webpage Design </td>
+                <td> Stories of Women </td>
+                <td> Honors <br /> Statistics and Probability</td>
+                <td> Study Hall </td>
+                <td> Comparative Religion </td>
+                <td> Modern US History <br /> and Government </td>
+                <td> AP Spanish </td>
+            </tr>
+            
+    <!-- this row lists classes when I don't have first lunch and then tells when I do have first lunch -->
+            <tr> 
+                <td> 11:25-11:50 am <br /> <i> Period 3-1 </i></td>
+                <td rowspan="2"> Stories of Women </td>
+                <td rowspan= "2"> Honors <br /> Statistics and Probability </td>
+                <td> <i> Lunch 1 </i></td>
+                <td> <i> Lunch 1 </i></td>
+                <td> <i> Lunch 1 </i></td>
+                <td rowspan="2"> AP Spanish</td>
+                <td rowspan="2"> Webpage Design </td>
+            </tr>
+            
+    <!-- this row omits my rowspan classes from the previous row and rowspans the classes I have when I have second lunch -->
+            <tr>
+                <td> 11:55am- 12:40 pm <br /> <i> Period 3-2</i></td>
+                <td rowspan="2"> Study Hall </td>
+                <td rowspan="2"> Comparative Religion </td>
+                <td rowspan="2"> Modern US History <br /> and Government</td>
+            </tr>
+    <!-- this row says when I have lunch two and omits the classes previously rowspanned -->
+            <tr>
+                <td> 12:15- 12:40 pm <br /> <i> Period 3-3 </i></td>
+                <td> <i> Lunch 2 </i> </td>
+                <td> <i> Lunch 2</i></td>
+                <td> <i> Lunch 2</i></td>
+                <td> <i> Lunch 2 </i></td>
+            </tr>
+            
+            <tr> 
+                <td> 12:45 - 1:35 pm <br /> <i> Period 4 </i></td>
+                <td> Modern US History <br /> and Government</td>
+                <td> AP Spanish </td>
+                <td> Webpage Design</td>
+                <td> Stories of Women</td>
+                <td> Honors <br /> Statistics and Probability </td>
+                <td> Study Hall</td>
+                <td> Comparative Religion</td>
+            </tr>
+            
+            <tr>
+                <td> 1:40- 2:35 pm <br /> <i> Period 5 </i></td>
+                <td> Study Hall </td>
+                <td> Comparative Religion</td>
+                <td> Modern US History <br /> and Government </td>
+                <td> AP Spanish </td>
+                <td> Webpage Design</td>
+                <td> Stories of Women</td>
+                <td> </td>
+            </tr>
+        </tbody>
+
+    <!-- the body ends and the foot starts by giving a brief list of after school activities to end the table -->
+        <tfoot> 
+            <tr>
+                <td> After School Activities </td>
+                <td colspan="7"> Homework, Nap, Netflix, Run 8 Miles, Work</td>
+            </tr>
+        </tfoot>
+        </table>
+    
+        <!-- page content goes in between the body tags -->
+        
+        
+        </body>
+</html>

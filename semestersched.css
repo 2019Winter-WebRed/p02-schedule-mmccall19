@@ -1,0 +1,32 @@
+/*
+*Mackenzie
+*March 25 2019
+*2nd Semester Schedule
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Boddy attributes here */
+
+body {
+/* this attribute gives the site a background color */
+    background-color: cornsilk
+}
+
+/* this attribute gives a colored border around each cell on the table */
+table, td, th {border: 3px solid red; }
+
+/* this attribute takes away the space in between each cell on the table */
+table {border-collapse: collapse; }
+
+tbody {background-color: #FAD98B}
+
+/* this attribute gives the head of the table a background color */
+thead {background-color: #28C3C1; }
+
+/* this attribute gives a background color to the foot of the table */
+tfoot {background-color: #0099CC; }
